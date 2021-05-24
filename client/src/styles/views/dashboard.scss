@@ -1,0 +1,55 @@
+.dashboard {
+  display: flex;
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .left-panel {
+    padding: 30px;
+
+    li {
+      padding: 20px;
+      font-size: 16px;
+      list-style-type: none;
+      white-space: nowrap;
+      opacity: 0.7;
+
+      &:hover {
+        opacity: 1;
+        font-weight: 800;
+      }
+
+      button {
+        cursor: pointer;
+
+        &.selected {
+          border-bottom: 2px solid black;
+        }
+      }
+    }
+  }
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: $breakpoint-phone) {
+  .dashboard {
+    display: block;
+
+    .left-panel {
+      li {
+        text-align: center;
+        padding: 1px;
+      }
+    }
+
+    h1 {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,96 @@
+.word-hero-page {
+  position: relative;
+
+  .boxes-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 17px;
+    flex-wrap: wrap;
+    .bg-box {
+      display: inline-block;
+      width: 42px;
+      height: 42px;
+      border-radius: 8px;
+      border: solid 1px $primary-font-color;
+      margin: 5px 10px;
+
+      &.blue {
+        background-color: #0e004e;
+      }
+
+      &.white {
+        background-image: linear-gradient(
+          to bottom,
+          rgba(246, 245, 248, 0.1),
+          rgba(14, 0, 78, 0.3)
+        );
+      }
+
+      input {
+        display: none;
+      }
+
+      label {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .small {
+          background-color: blueviolet;
+          height: 50%;
+          width: 50%;
+        }
+      }
+    }
+  }
+
+  .wordcloud-container {
+    text-align: center;
+    min-height: calc(100vh - 8rem);
+    transition: all 0.2s ease-in-out;
+    overflow: auto;
+
+    text:hover {
+      opacity: 1 !important;
+      cursor: pointer;
+    }
+
+    text::selection {
+      background-color: white;
+      opacity: 1;
+    }
+
+    g:hover text {
+      opacity: 0.2;
+    }
+  }
+
+  .user-result {
+    display: inline-block;
+    width: calc(100% - 400px);
+    font-family: Poppins;
+    font-size: 24px;
+    color: $primary-font-color;
+    margin: 10px 20px;
+
+    td {
+      padding: 5px 10px;
+    }
+  }
+}
+
+.wordcloud-title {
+  text-align: center;
+  margin: 10px;
+  font-size: 5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px #ffffff;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}

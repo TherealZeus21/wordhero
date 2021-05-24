@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{21890F51-76D1-4468-80A2-654D76238530}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{9EA0172A-D725-4B32-8DCD-D4F0334D44D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebToolDataAccess", "WebToolDataAccess\WebToolDataAccess.csproj", "{3C9BDF8C-DE2A-4C60-A876-6333841DED95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{9B009F02-7DD4-4062-A9CF-BA90F835FD00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebTool.Model", "WebTool.Model\WebTool.Model.csproj", "{63433868-8638-40D0-A72D-442D927E3094}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebTool.Service", "WebTool.Service\WebTool.Service.csproj", "{ADA22DB8-BDEC-4EC8-AE76-B441EA748865}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordHeroAPI", "WordHeroAPI\WordHeroAPI.csproj", "{1F6DFBC9-0CC2-4592-BD19-7A4F9ACE6903}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{464864D2-A7FC-4CC5-9A85-16D9EC87BE61}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logger.Core", "Logger.Core\Logger.Core.csproj", "{6C8CD7CC-7C42-43BD-98B9-07016470E5EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C9BDF8C-DE2A-4C60-A876-6333841DED95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C9BDF8C-DE2A-4C60-A876-6333841DED95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C9BDF8C-DE2A-4C60-A876-6333841DED95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C9BDF8C-DE2A-4C60-A876-6333841DED95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63433868-8638-40D0-A72D-442D927E3094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63433868-8638-40D0-A72D-442D927E3094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63433868-8638-40D0-A72D-442D927E3094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63433868-8638-40D0-A72D-442D927E3094}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADA22DB8-BDEC-4EC8-AE76-B441EA748865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADA22DB8-BDEC-4EC8-AE76-B441EA748865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADA22DB8-BDEC-4EC8-AE76-B441EA748865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADA22DB8-BDEC-4EC8-AE76-B441EA748865}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F6DFBC9-0CC2-4592-BD19-7A4F9ACE6903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F6DFBC9-0CC2-4592-BD19-7A4F9ACE6903}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F6DFBC9-0CC2-4592-BD19-7A4F9ACE6903}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F6DFBC9-0CC2-4592-BD19-7A4F9ACE6903}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C8CD7CC-7C42-43BD-98B9-07016470E5EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C8CD7CC-7C42-43BD-98B9-07016470E5EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C8CD7CC-7C42-43BD-98B9-07016470E5EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C8CD7CC-7C42-43BD-98B9-07016470E5EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3C9BDF8C-DE2A-4C60-A876-6333841DED95} = {21890F51-76D1-4468-80A2-654D76238530}
+		{63433868-8638-40D0-A72D-442D927E3094} = {9B009F02-7DD4-4062-A9CF-BA90F835FD00}
+		{ADA22DB8-BDEC-4EC8-AE76-B441EA748865} = {9EA0172A-D725-4B32-8DCD-D4F0334D44D3}
+		{6C8CD7CC-7C42-43BD-98B9-07016470E5EE} = {464864D2-A7FC-4CC5-9A85-16D9EC87BE61}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1AAC3145-5352-43A1-AD2B-5511B413FC81}
+	EndGlobalSection
+EndGlobal

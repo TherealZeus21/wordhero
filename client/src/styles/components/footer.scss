@@ -1,0 +1,11 @@
+@import "../variables.scss";
+
+footer {
+
+  background: $form-backgroud-color;
+  color: #BABABA;
+
+  .container{
+    padding: 25px;
+  }
+}

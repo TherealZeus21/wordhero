@@ -1,0 +1,23 @@
+.spidegram {
+  position: relative;
+
+  .add-new-group {
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.26) 0 2px 4px 0;
+    -moz-box-shadow: rgba(0, 0, 0, 0.26) 0 2px 4px 0;
+    box-shadow: rgba(0, 0, 0, 0.26) 0 2px 4px 0;
+
+    background-color: #ffffff;
+
+    position: absolute;
+
+    button {
+      margin: 10px auto;
+      display: block;
+      width: 30%;
+      padding: 5px;
+    }
+  }
+}

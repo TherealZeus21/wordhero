@@ -1,0 +1,54 @@
+.wh-icon {
+  &.favourite {
+    color: red !important;
+  }
+
+  &.white {
+    filter: brightness(0) invert(1);
+  }
+
+  &.disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+
+    color: -internal-light-dark-color(
+      rgba(16, 16, 16, 0.3),
+      rgb(170, 170, 170)
+    );
+    background-color: -internal-light-dark-color(
+      rgba(239, 239, 239, 0.3),
+      rgba(19, 1, 1, 0.3)
+    );
+    border-color: -internal-light-dark-color(
+      rgba(118, 118, 118, 0.3),
+      rgba(195, 195, 195, 0.3)
+    );
+  }
+}
+
+.question-icon {
+  background-color: #ffc107;
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: solid 2px rgba(14, 0, 78, 0.3);
+  cursor: pointer;
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  -webkit-box-shadow: rgba(0, 0, 0, 0.26) 0 2px 4px 0;
+  -moz-box-shadow: rgba(0, 0, 0, 0.26) 0 2px 4px 0;
+  box-shadow: rgba(0, 0, 0, 0.26) 0 2px 4px 0;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+}

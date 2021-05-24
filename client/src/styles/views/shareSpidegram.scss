@@ -1,0 +1,20 @@
+.share {
+  .spidegram {
+    .graph {
+      height: 100vh;
+    }
+  }
+
+  .question-icon {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    z-index: 3;
+  }
+
+  .side-panel {
+    top: 0px;
+    height: 100vh;
+    font-size: small;
+  }
+}

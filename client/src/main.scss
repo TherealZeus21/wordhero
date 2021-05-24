@@ -1,0 +1,31 @@
+@import "styles/mixins.scss";
+@import "styles/variables.scss";
+@import "styles/layout.scss";
+
+@import "styles/views/createLesson.scss";
+@import "styles/views/ourstory.scss";
+@import "styles/views/faq.scss";
+@import "styles/views/dashboard.scss";
+@import "styles/views/wordhero.scss";
+@import "styles/views/wordheroExercise.scss";
+@import "styles/views/shareSpidegram.scss";
+
+@import "styles/components/footer.scss";
+@import "styles/components/spinner.scss";
+@import "styles/components/createLessonForm.scss";
+@import "styles/components/sidePanel.scss";
+
+@import "styles/components//controls/input.scss";
+@import "styles/components/controls/wordButton.scss";
+
+// @import "styles/components/signupForm.scss";
+@import "styles/components/logoImg.scss";
+@import "styles/components/header.scss";
+@import "styles/components/ourstory.scss";
+@import "styles/components/card.scss";
+@import "styles/components/loading.scss";
+@import "styles/components/graph.scss";
+@import "styles/components/spidegram.scss";
+@import "styles/components/modal.scss";
+@import "styles/components/icons.scss";
+@import "styles/components/accordion.scss";

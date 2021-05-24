@@ -1,0 +1,191 @@
+.pm-main-sign-up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  background: url("../photos/left-background.png");
+  background-size: cover;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 1%;
+  width: 100%;
+}
+
+.pm-logo-alt {
+  display: flex;
+  background: url("../photos/logoWebTool.png") no-repeat center;
+  background-size: contain;
+  height: 7rem;
+  margin-top: 5%;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  margin: 6% 6% 0 6%;
+}
+
+.text-container > h2 {
+  color: #fff;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.left-picture-container {
+  display: flex;
+  background: url("../photos/flame-success.png") no-repeat center;
+  background-size: contain;
+  height: 15rem;
+  margin: 5%;
+}
+
+.text-container > ul {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 1%;
+  background-color: #fff;
+  width: 100%;
+  padding: 0 5%;
+}
+
+.right-section > .heading {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+
+.heading > h4 {
+  color: $light-red;
+  font-weight: 400;
+}
+
+.login-link-container {
+  font-size: 0.8rem;
+  color: $dark-gray;
+}
+
+.login-link-container > div > a {
+  text-decoration: none !important;
+  color: $light-red;
+  font-size: 0.9rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.sign-up-form {
+  margin-bottom: 5%;
+}
+
+.pm-form-group {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  width: 100%;
+}
+
+.pm-form-label {
+  font-weight: 600;
+  font-size: 12px;
+  color: #282828;
+  margin-bottom: 8px;
+}
+
+#sign-up-btn {
+  margin-top: 10%;
+}
+
+.pm-terms {
+  font-size: 0.8rem;
+  color: #282828;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+@include respond-above(xs) {
+  .left-section {
+    max-width: 60%;
+  }
+
+  .right-section {
+    max-width: 60%;
+  }
+}
+
+@include respond-above(sm) {
+  .left-section {
+    max-width: 60%;
+  }
+
+  .right-section {
+    max-width: 60%;
+  }
+}
+
+@include respond-above(md) {
+  .pm-main-sign-up {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    align-items: stretch;
+    margin: auto;
+    margin-bottom: 10%;
+  }
+
+  .left-section {
+    max-width: 40%;
+  }
+
+  .right-section {
+    max-width: 40%;
+  }
+
+  .pm-logo-alt {
+    height: 15%;
+  }
+
+  .left-picture-container {
+    height: 35%;
+  }
+}
+
+@include respond-above(lg) {
+  .pm-main-sign-up {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    max-width: 1000px;
+    align-items: stretch;
+    margin: auto;
+    margin-bottom: 10%;
+  }
+
+  .left-section {
+    max-width: 50%;
+  }
+
+  .right-section {
+    max-width: 50%;
+  }
+
+  .pm-logo-alt {
+    height: 15%;
+  }
+
+  .left-picture-container {
+    height: 35%;
+  }
+}

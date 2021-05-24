@@ -1,0 +1,101 @@
+html {
+  min-height: 100vh;
+  font-family: $basic-font-family;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  background: $body-backgroud-color;
+
+  button {
+    padding: 0.3em 0.8em;
+    margin: 0.3em;
+    border: 0.05em solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.2em;
+    text-shadow: 0 -0.01em 0.01em #335166;
+    line-height: 1.5;
+    border: none;
+    cursor: pointer;
+
+    margin: 2px;
+    padding: 2px;
+    font-weight: 500;
+
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+
+    &:active {
+      box-shadow: 0 2px rgba(0, 0, 0, 0.6);
+      transform: translateY(2px);
+    }
+
+    &.yellow {
+      background-color: #ffc107;
+    }
+
+    &.middle {
+      min-width: 80px;
+      height: 40px;
+    }
+
+    &.eclipse {
+      border-radius: 50% / 50%;
+      font-weight: 600;
+    }
+  }
+}
+
+#root {
+  min-height: 100vh;
+
+  > div {
+    min-height: 100vh;
+  }
+
+  body::after {
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150pxt;
+  }
+  main {
+    min-height: 100vh;
+    position: relative;
+  }
+}
+
+.full-height {
+  height: -moz-calc(100vh - 100px); /* Firefox */
+  height: -webkit-calc(100vh - 100px); /* Chrome, Safari */
+  height: calc(100vh - 100px); /* IE9+ and future browsers */
+}
+
+.circle-sign {
+  width: 22px;
+  height: 22px;
+  box-shadow: 0 0 11px 0 rgba(79, 52, 199, 0.2);
+  background-color: #ffc107;
+  border-radius: 50%;
+  cursor: pointer;
+
+  &::before {
+    height: 22px;
+    width: 22px;
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #4f34c7;
+  }
+}

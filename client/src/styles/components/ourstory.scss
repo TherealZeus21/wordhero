@@ -1,0 +1,18 @@
+.ourstory-item {
+  display: flex;
+  margin: 2rem;
+  align-items: center;
+  
+  > * {
+    margin: 2rem;
+  }
+
+  img {
+    max-width: 60%;
+    max-height: 30%;
+
+    &.right {
+      order: 2;
+    }
+  }
+}
